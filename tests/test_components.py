@@ -1,7 +1,7 @@
 def test_database():
     print("Testing database...")
     try:
-        from db import Database
+        from src.db import Database
         db = Database("test_components.db")
         print("✅ Database connection OK")
         return db
@@ -13,7 +13,7 @@ def test_database():
 def test_habit_manager(db):
     print("Testing habit manager...")
     try:
-        from habit_manager import HabitManager
+        from src.habit_manager import HabitManager
         manager = HabitManager(db)
         manager.set_current_user(1)
         print("✅ Habit manager OK")
@@ -26,7 +26,7 @@ def test_habit_manager(db):
 def test_analytics(db):
     print("Testing analytics...")
     try:
-        from analytics import AnalyticsEngine
+        from src.analytics import AnalyticsEngine
         analytics = AnalyticsEngine(db)
         print("✅ Analytics OK")
         return analytics

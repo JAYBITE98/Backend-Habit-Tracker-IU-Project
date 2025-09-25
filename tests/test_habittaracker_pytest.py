@@ -1,8 +1,7 @@
 import pytest
 import os
-from db import Database
-from habit_manager import HabitManager
-from analytics import AnalyticsEngine
+from src.db import Database
+from src.habit_manager import HabitManager
 
 
 # Pytest fixtures

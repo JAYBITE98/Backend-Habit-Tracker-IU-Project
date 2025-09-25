@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 from typing import List, Tuple, Optional
-from db import Database
+from src.db import Database
 
 
 class AdvancedAnalytics:

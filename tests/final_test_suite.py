@@ -1,7 +1,6 @@
-from db import Database
-from habit_manager import HabitManager
-from advanced_analytics import AdvancedAnalytics
-from datetime import datetime, timedelta
+from src.db import Database
+from src.habit_manager import HabitManager
+from src.advanced_analytics import AdvancedAnalytics
 import os
 
 
@@ -114,7 +113,7 @@ class FinalTestSuite:
         assert len(weekly_habits) == 1, "Should have 1 weekly habit"
 
         # Test FP wrapper functions
-        from advanced_analytics import calculate_longest_streak, get_longest_streak_all
+        from src.advanced_analytics import calculate_longest_streak, get_longest_streak_all
 
         # Test with a habit that has 0 completions
         habit_id = daily_habits[0][0]

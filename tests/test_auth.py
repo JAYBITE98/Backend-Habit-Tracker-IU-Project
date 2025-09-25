@@ -1,4 +1,4 @@
-from db import Database
+from src.db import Database
 import os
 
 

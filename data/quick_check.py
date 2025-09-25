@@ -4,7 +4,7 @@ def main():
 
     # Test a simple import
     try:
-        import db
+        from src import db
         print("✅ db.py can be imported")
     except Exception as e:
         print(f"❌ Error: {e}")

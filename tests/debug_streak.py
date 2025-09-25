@@ -1,7 +1,7 @@
 # debug_streak.py
-from db import Database
-from habit_manager import HabitManager
-from advanced_analytics import AdvancedAnalytics
+from src.db import Database
+from src.habit_manager import HabitManager
+from src.advanced_analytics import AdvancedAnalytics
 
 
 def debug_streak_calculation():

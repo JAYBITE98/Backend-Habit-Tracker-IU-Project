@@ -1,5 +1,5 @@
-from advanced_analytics import AdvancedAnalytics
-from db import Database
+from src.advanced_analytics import AdvancedAnalytics
+from src.db import Database
 
 
 def test_complete_system():
@@ -35,7 +35,7 @@ def test_complete_system():
     print(f"   Overall longest: {longest_habit} ({longest_streak})")
 
     print("\n4. Testing FP-style wrapper functions...")
-    from advanced_analytics import calculate_longest_streak, get_longest_streak_all
+    from src.advanced_analytics import calculate_longest_streak
     if daily_habits:
         habit_id = daily_habits[0][0]
         streak = calculate_longest_streak(analytics, habit_id)

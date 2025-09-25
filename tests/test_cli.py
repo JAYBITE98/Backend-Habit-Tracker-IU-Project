@@ -1,6 +1,6 @@
 from cli import HabitTrackerCLI
-from db import Database
-from habit_manager import HabitManager
+from src.db import Database
+from src.habit_manager import HabitManager
 
 
 def test_cli_initialization():

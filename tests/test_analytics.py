@@ -1,5 +1,5 @@
-from analytics import AnalyticsEngine
-from db import Database
+from src.analytics import AnalyticsEngine
+from src.db import Database
 import os
 from datetime import datetime, timedelta
 

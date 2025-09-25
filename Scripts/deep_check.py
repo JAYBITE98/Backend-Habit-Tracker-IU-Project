@@ -4,7 +4,7 @@ def main():
     # Test 1: Basic db import
     print("1. Testing db import...")
     try:
-        from db import Database
+        from src.db import Database
         print("✅ from db import Database - OK")
     except Exception as e:
         print(f"❌ Error: {e}")
@@ -22,7 +22,7 @@ def main():
     # Test 3: Test habit import
     print("3. Testing habit import...")
     try:
-        from habit import BaseHabit, DailyHabit, WeeklyHabit
+        from src.habit import BaseHabit, DailyHabit, WeeklyHabit
         print("✅ habit imports - OK")
     except Exception as e:
         print(f"❌ Error: {e}")
@@ -31,7 +31,7 @@ def main():
     # Test 4: Test habit manager import
     print("4. Testing habit manager import...")
     try:
-        from habit_manager import HabitManager
+        from src.habit_manager import HabitManager
         print("✅ HabitManager import - OK")
     except Exception as e:
         print(f"❌ Error: {e}")
@@ -62,7 +62,7 @@ def main():
     # Test 7: Test analytics import
     print("7. Testing analytics import...")
     try:
-        from analytics import AnalyticsEngine
+        from src.analytics import AnalyticsEngine
         print("✅ AnalyticsEngine import - OK")
     except Exception as e:
         print(f"❌ Error: {e}")

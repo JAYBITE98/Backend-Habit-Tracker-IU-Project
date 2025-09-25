@@ -1,5 +1,5 @@
-from advanced_analytics import AdvancedAnalytics
-from db import Database
+from src.advanced_analytics import AdvancedAnalytics
+from src.db import Database
 
 
 def test_advanced_analytics():

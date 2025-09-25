@@ -1,5 +1,4 @@
-import pytest
-from habit import DailyHabit, WeeklyHabit
+from src.habit import DailyHabit, WeeklyHabit
 from datetime import datetime
 
 

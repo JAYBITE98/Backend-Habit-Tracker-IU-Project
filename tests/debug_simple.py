@@ -5,7 +5,7 @@ def main():
     # Test 1: Database
     print("1. Testing database...")
     try:
-        from db import Database
+        from src.db import Database
         db = Database("debug_test.db")
         print("✅ Database: OK")
     except Exception as e:
@@ -15,7 +15,7 @@ def main():
     # Test 2: Habit Manager
     print("2. Testing habit manager...")
     try:
-        from habit_manager import HabitManager
+        from src.habit_manager import HabitManager
         manager = HabitManager(db)
 
         # Check if set_current_user exists
@@ -34,7 +34,7 @@ def main():
     # Test 3: Analytics
     print("3. Testing analytics...")
     try:
-        from analytics import AnalyticsEngine
+        from src.analytics import AnalyticsEngine
         analytics = AnalyticsEngine(db)
         print("✅ AnalyticsEngine: OK")
     except Exception as e:

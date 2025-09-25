@@ -7,8 +7,8 @@ try:
     cli = HabitTrackerCLI()
     print("✅ CLI imports and initializes correctly")
 
-    from advanced_analytics import AdvancedAnalytics
-    from db import Database
+    from src.advanced_analytics import AdvancedAnalytics
+    from src.db import Database
 
     db = Database()
     analytics = AdvancedAnalytics(db)

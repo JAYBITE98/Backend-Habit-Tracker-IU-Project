@@ -1,7 +1,3 @@
-import sys
-import importlib
-
-
 def check_file_syntax(filename):
     """Check if a Python file has syntax errors."""
     try:
@@ -54,8 +50,8 @@ else:
 # Test basic imports
 print("\n🔍 Testing imports...")
 try:
-    from db import Database
-    from habit_manager import HabitManager
+    from src.db import Database
+    from src.habit_manager import HabitManager
 
     print("✅ Basic imports work")
 except ImportError as e:
