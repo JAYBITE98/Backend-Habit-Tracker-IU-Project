@@ -82,7 +82,7 @@ Step-by-Step Setup
 Clone the Repository
 
 bash
-git clone https://github.com/JAVBITF89/Backend-Habit-Tracker-IU-Project.git
+git clone https://github.com/JAYBITE98/Backend-Habit-Tracker-IU-Project
 cd Backend-Habit-Tracker-IU-Project
 Create Virtual Environment
 
