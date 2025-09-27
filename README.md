@@ -251,12 +251,12 @@ Include unit tests for new functionality
 Update documentation accordingly
 
 📝 License
-This project is developed as part of IU Computer Science curriculum. All rights reserved.
+This project is developed as part of IU Data Science curriculum. All rights reserved.
 
 👨‍💻 Author
 JULIUS FALANA - IU DATA Science Student
 
-GitHub: @JAVBITF89
+GitHub: @JAYBITE98
 
 Project: Backend Habit Tracker - IU Project
 
