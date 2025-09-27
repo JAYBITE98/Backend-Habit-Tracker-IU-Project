@@ -1,0 +1,32 @@
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# PyCharm IDE files
+.idea/
+*.iml
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database files
+*.db
+*.sqlite3
+
+# ZIP files
+*.zip
+
+# Test files (optional)
+test_*.db
