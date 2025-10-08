@@ -1,4 +1,4 @@
-Backend Habit Tracker - IU Computer Science Project
+Backend Habit Tracker - IU Data Science Project
 A comprehensive Python-based habit tracking system featuring database persistence, functional programming for analytics, and object-oriented design for core entities.
 
 📋 Table of Contents
